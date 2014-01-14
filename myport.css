@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+body {
+	background-color: #1a1a1a;
+	background-image: url('audubon.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#top {
+	background-color: #1a1a1a;
+	color: #929292;
+}
+.logo {
+	text-align:center;
+}
+
+
+
+
