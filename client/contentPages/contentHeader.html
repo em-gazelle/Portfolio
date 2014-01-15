@@ -1,0 +1,38 @@
+<template name="contentHeader">
+	<div class="navbar navbar-static-top" id="top">
+	    <div class="row">
+<ul class="vert">
+	<li>
+		    <h1>
+		        <a class="HomeLink" href="{{pathFor 'home'}}">Bold Ideas. Bold Designs.</a>
+		    </h1>
+	</li>
+	<li class="pull-left">
+
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="stubborn-color">Learn more about a Passionate Web Dev</span>
+            
+        </a>
+
+			<div class="nav-collapse collapse">
+
+				<ul class="nav">
+                    <li class="{{activeRouteClass 'samples'}}">
+                        <a href="{{pathFor 'samples'}}">Designed and Developed: Case Studies</a>
+                    </li>
+<!--
+                    <li class="{{activeRouteClass 'about'}}">
+                        <a href="{{pathFor 'about'}}">Emma Flock: Defined</a>
+                    </li>
+-->
+                	<li class="{{activeRouteClass 'contact'}}">
+                        <a href="{{pathFor 'contact'}}">Who am I? </a></li>
+                </ul>
+    </div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+</template>

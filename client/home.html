@@ -1,0 +1,45 @@
+<template name="home">
+
+<body>
+
+{{> header}}
+
+<footer class="navbar pull-right">
+<div class="navbar navbar-fixed-bottom">
+	
+	<!--	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			Learn More
+			<span class="icon-bar"></span>
+		</a>
+			<div class="nav-collapse collapse">
+-->
+
+	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="stubborn-color">Learn more about a Passionate Web Dev</span>
+			
+		</a>
+			<div class="nav-collapse collapse">
+
+				<ul class="nav pull-right">
+                    <li class="{{activeRouteClass 'samples'}}">
+                        <a href="{{pathFor 'samples'}}"><span class="homenav">Designed and Developed: Sample Sites</span></a>
+                    </li>
+
+                    <li class="{{activeRouteClass 'contact'}}"> 
+                    	<a href="{{pathFor 'contact'}}"><span class="homenav"> Who am I? </span></a>
+                    </li>
+
+            <!--        <li class="{{activeRouteClass 'about'}}">
+                        <a href="{{pathFor 'about'}}">Emma Flock: Defined</a>
+                    </li>
+
+                	<li class="{{activeRouteClass 'contact'}}">
+                        <a href="{{pathFor 'contact'}}">Contact!</a></li>
+                -->
+                </ul>
+    </div>
+</div>
+</div>
+</footer>
+</body>
+</template>
