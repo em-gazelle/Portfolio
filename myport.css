@@ -4,16 +4,35 @@ body {
 	background-image: url('audubon.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 #top {
 	background-color: #1a1a1a;
 	color: #929292;
 }
-.logo {
-	text-align:center;
+
+h1 {
+	text-shadow: 0px 2px 3px #1B1B1B;
+	margin-left:33px;
+}
+
+h2 {
+	background-color: white;
+}
+
+li {
+	text-align: right;
+	font-size: 20px;
+}
+
+.navbar { 
+/*    margin-bottom: 10px;
+
 }
 
 
-
-
+.navbar .navbar-inner {
+    border-radius: 0px 0px 3px 3px;
+    border-color: #4e1a23;
+}
